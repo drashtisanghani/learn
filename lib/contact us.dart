@@ -14,9 +14,7 @@ class _ContactUsState extends State<ContactUs> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      drawer: Drawer(
-        child: Vd(),
-      ),
+      drawer: Drawer(child: Vd()),
       appBar: AppBar(
         title: Text("Contact Us"),
       ),
